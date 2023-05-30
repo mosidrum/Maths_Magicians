@@ -1,8 +1,8 @@
+import Calculator from './components/pages/Calculator';
+
 function App() {
   return (
-    <div>
-      <h1>Setup Is ready</h1>
-    </div>
+    <Calculator />
   );
 }
 
