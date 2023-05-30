@@ -1,0 +1,42 @@
+.my-calculator {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+/* stylelint-disable */
+.result {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  padding: 5px;
+  font-size: 30px;
+  background-color: rgb(133,134,148);
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  margin-bottom: 3px;
+}
+/* stylelint-enable */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.orange {
+  background-color: rgb(245,145,62);
+}
+/* stylelint-disable */
+button {
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+/* stylelint-enable */
+button:hover {
+  cursor: pointer;
+}
+
+.zero {
+  grid-column-end: span 2;
+}
