@@ -1,12 +1,9 @@
+import Screen from './Screen';
 import './calculator.css';
 
 const Calculator = () => (
   <section className="my-calculator">
-    <div className="result">
-      <span className="screen">
-        0
-      </span>
-    </div>
+    <Screen />
     <div className="buttons">
       <button type="button" className="ac">
         AC
@@ -18,7 +15,7 @@ const Calculator = () => (
         %
       </button>
       <button type="button" className="division orange">
-        /
+        &#247;
       </button>
       <button type="button" className="digit">
         7
