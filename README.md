@@ -211,6 +211,6 @@ I would like to thank God almighty and my coding partner at microverse that guid
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://opensource.org/license/mit/) licensed.
+This project is [MIT](https://github.com/mosidrum/Maths_Magicians/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
