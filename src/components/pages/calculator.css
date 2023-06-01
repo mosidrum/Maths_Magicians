@@ -1,10 +1,10 @@
+/* stylelint-disable */
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  overflow-x: none;
 }
-
+/* stylelint-enable */
 .container {
   height: 100vh;
   display: flex;
