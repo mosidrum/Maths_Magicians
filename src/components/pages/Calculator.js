@@ -2,8 +2,7 @@ import { useState } from 'react';
 import Screen from '../Screen';
 import './calculator.css';
 import calculate from '../../logic/calculate';
-import Api from '../Api';
-import Loading from '../../assets/loading.gif';
+import Quote from './Quote';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });
@@ -11,21 +10,9 @@ const Calculator = () => {
     setState(() => calculate(state, e.target.innerText));
   };
   const { total, operation, next } = state;
-  const {
-    res, loading, error, author,
-  } = Api('https://api.api-ninjas.com/v1/quotes?category=computers');
-  if (loading) {
-    return <img src={Loading} className="loader" alt="Loader" />;
-  }
-  if (error) {
-    return <p>There was an error fetching the quote</p>;
-  }
   return (
     <div className="container">
-      <div className="quote">
-        <h2>{author}</h2>
-        <p>{res}</p>
-      </div>
+      <Quote />
       <section className="my-calculator">
         <Screen total={total} operation={operation} next={next} />
         <div className="buttons">
