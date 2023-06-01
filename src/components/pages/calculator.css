@@ -1,3 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.quote {
+  width: 30%;
+}
+
 .my-calculator {
   display: flex;
   flex-direction: column;
