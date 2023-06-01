@@ -12,8 +12,13 @@ const Screen = ({ total, operation, next }) => (
 
 Screen.propTypes = {
   total: PropTypes.number.isRequired,
-  operation: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
+  operation: PropTypes.string,
+  next: PropTypes.string,
+};
+
+Screen.defaultProps = {
+  operation: null,
+  next: null,
 };
 
 export default Screen;

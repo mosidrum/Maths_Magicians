@@ -1,3 +1,28 @@
+/* stylelint-disable */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* stylelint-enable */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.loader {
+  width: 30%;
+  object-fit: cover;
+}
+
+.quote {
+  width: 30%;
+}
+
 .my-calculator {
   display: flex;
   flex-direction: column;
