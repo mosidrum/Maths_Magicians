@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(30, 100%, 9.22%);
+}
+
+.quote {
+  /* margin-bottom: 200px; */
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+i {
+  font-size: 18px;
+}

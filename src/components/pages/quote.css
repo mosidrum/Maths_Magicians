@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.quote-container {
+  background-color: hsl(30, 100%, 9.22%);
+  height: 100vh;
+}
+
+.loader {
+  width: 100%;
+  object-fit: cover;
+}
+
+.quote {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: auto;
+}
