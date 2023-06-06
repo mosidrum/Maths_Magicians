@@ -29,7 +29,7 @@ function Api(link) {
           setLoading(false);
         });
     }
-  }, [res, link, key]);
+  }, [link, res]);
   return {
     res, loading, error, author,
   };

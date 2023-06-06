@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  color: #fff;
+  background-color: hsl(31, 95%, 17%);
+}
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
