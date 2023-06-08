@@ -1,14 +1,14 @@
-import { render } from "@testing-library/react";
+import { render } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from '../components/Header';
-import { BrowserRouter } from "react-router-dom";
 
 describe('Header', () => {
   it('should render correctly', () => {
     const head = render(
       <BrowserRouter>
         <Header />
-      </BrowserRouter>
-    
+      </BrowserRouter>,
+
     );
     expect(head).toMatchSnapshot();
   });

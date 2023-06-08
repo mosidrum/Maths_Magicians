@@ -1,4 +1,4 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
 describe('Solve mathematics', () => {
   const equal = '=';
@@ -23,5 +23,3 @@ describe('Solve mathematics', () => {
     expect(multiDisp.total).toBe('20');
   });
 });
-
-
