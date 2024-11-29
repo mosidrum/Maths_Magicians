@@ -48,7 +48,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Maths_Magicians ] <a name="about-project"></a>
 
-**Maths_Magicians** This is the first project of the Math Magicians application
+![Webpage Image](./src/assets/Capture.JPG)
+**Maths_Magicians** A full web Application that includes mathematical qoutes, and a calculator to perform mathematical operations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,11 +70,26 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="#">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Jest testing</summary>
+  <ul>
+    <li><a href="#">CSS</a></li>
+  </ul>
+</details>
+
+<details>
   <summary>Js</summary>
   <ul>
     <li><a href="#">Js</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
@@ -94,7 +110,9 @@ Install latest node js
  
 
 ### Prerequisites
-run npm start
+Clone this repository
+inpm install
+npm start
 
 
 <!--
@@ -107,7 +125,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/mosidrum/maths_magicians
+Clone this repository to your desired folder: https://github.com/mosidrum/maths_magicians or visit the website
 
 <!--
 Example commands:
@@ -148,7 +166,7 @@ Example command:
 
 ### Deployment
 
-No deployement yet
+https://webpush-4dzs.onrender.com/
 
 <!--
 Example:
@@ -169,15 +187,6 @@ Example:
 - GitHub: [@githubhandle](https://github.com/mosidrum)
 - Twitter: [@twitterhandle](https://twitter.com/mosidrum)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/isaac-ayodele-37890521b)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **deployment**
-- [ ] **Mobile responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
